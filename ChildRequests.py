@@ -71,8 +71,15 @@ def toggle_to_contact(frame,event=None):
     frame.destroy()
     frame = tk.Frame(root)
     frame.pack(side=tk.TOP, pady=80)
-    label_guide = tk.Label(frame, text="Write here all information about developer", font=('arial', 18),bd=18)
+    label_guide = tk.Label(frame, text="Developer : wasem , email : wasemjbaren@gmail.com", font=('arial', 18),bd=18)
+    label_guide1 = tk.Label(frame, text="Developer : rani , email : ranihajyahia1@gmail.com", font=('arial', 18),bd=18)
+    label_guide2 = tk.Label(frame, text="Developer : adan , email : adan_rwashdi@gmail.com", font=('arial', 18),bd=18)
+    label_guide3 = tk.Label(frame, text="Developer : tarek , email : tareksalem1@gmail.com", font=('arial', 18),bd=18)
+
     label_guide.grid(row=1)
+    label_guide1.grid(row=2)
+    label_guide2.grid(row=3)
+    label_guide3.grid(row=4)
     back_button(frame)
 
 def ask_holiday(frame, event=None):
